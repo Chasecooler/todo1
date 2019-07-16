@@ -44,9 +44,9 @@ class TodoList extends Component {
         console.log("Items at delete:" + this.state.items);
 
 
-        var filteredItems = this.state.items.filter(function(item)) {
+        var filteredItems = this.state.items.filter(function(item) {
             return (item.key !== key)
-    }};
+    });
 
     this.setState({
         items: filteredItems
