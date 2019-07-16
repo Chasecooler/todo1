@@ -15,7 +15,9 @@ class TodoItems extends Component {
     }
 
 
-    delete()
+    delete(key) {
+        this.prop.delete(key);
+    }
 
     render() {
         var todoEntries = this.props.entries;
