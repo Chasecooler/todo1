@@ -40,6 +40,11 @@ class TodoList extends Component {
         var filteredItems = this.state.items.filter(function(item)) {
             return (item.key !== key)
     }};
+
+    this.setState({
+        items: filteredItems
+    });
+
     }
 
     render() {

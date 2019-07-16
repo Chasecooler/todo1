@@ -32,6 +32,14 @@
     border-radius: 5px;
     list-style: none;
 
+    transition: background-color .2s ease-out
+}
+
+.todoListMain .theList li:hover {
+    background-color: crimson;
+    cursor: pointer;
+
+
 }
 
 ul.theList {
