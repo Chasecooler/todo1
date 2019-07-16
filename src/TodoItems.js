@@ -1,9 +1,21 @@
 import React, { Component } from "react";
 
 class TodoItems extends Component {
-    createTasks(item) {
-        returns <li key={item.key}>{item.text}</li>
+    constructor(props) {
+        super(props);
+
+        this.createTasks = this.createTasks.bind(this);
+
     }
+
+
+    createTasks(item) {
+        returns <li onclick={() => this.delete(item.key)}
+                    key={item.key}>{item.text}</li>
+    }
+
+
+    delete()
 
     render() {
         var todoEntries = this.props.entries;

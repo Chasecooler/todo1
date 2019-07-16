@@ -10,7 +10,7 @@ class TodoList extends Component {
             items: []
         };
 
-        this.addItem.bind(this);
+        this.addItem = this.addItem.bind(this);
 
     }
 
