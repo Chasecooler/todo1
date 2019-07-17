@@ -9,6 +9,7 @@ ReactDOM.render(
     <div>
         <h2>Smooth ToDo List &copy; 2019</h2>
         <h6>Smooth ToDo List allows you to enter multiple tasks.</h6>
+        <h4>*** WARNING: Tasks are DELETED OnClick! ***</h4>
         <TodoList/>
     </div>,
     destination
