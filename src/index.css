@@ -1,6 +1,7 @@
 body {
   padding: 50px;
-  background-color: blue;
+  /* background-color: blue; */
+  background-color: rgb(162, 165, 155);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 

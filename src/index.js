@@ -8,6 +8,7 @@ var destination = document.querySelector("#container");
 ReactDOM.render(
     <div>
         <h2>Smooth ToDo List &copy; 2019</h2>
+        <h6>Smooth ToDo List allows you to enter multiple tasks.</h6>
         <TodoList/>
     </div>,
     destination
